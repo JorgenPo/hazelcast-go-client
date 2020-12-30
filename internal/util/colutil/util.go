@@ -15,11 +15,11 @@
 package colutil
 
 import (
-	"github.com/hazelcast/hazelcast-go-client/core"
-	"github.com/hazelcast/hazelcast-go-client/internal/proto"
-	"github.com/hazelcast/hazelcast-go-client/internal/proto/bufutil"
-	"github.com/hazelcast/hazelcast-go-client/serialization"
-	"github.com/hazelcast/hazelcast-go-client/serialization/spi"
+	"github.com/jorgenpo/hazelcast-go-client/core"
+	"github.com/jorgenpo/hazelcast-go-client/internal/proto"
+	"github.com/jorgenpo/hazelcast-go-client/internal/proto/bufutil"
+	"github.com/jorgenpo/hazelcast-go-client/serialization"
+	"github.com/jorgenpo/hazelcast-go-client/serialization/spi"
 )
 
 func ObjectToDataCollection(objects []interface{}, service spi.SerializationService) ([]serialization.Data, error) {

@@ -17,8 +17,8 @@ package orgwebsite
 import (
 	"fmt"
 
-	"github.com/hazelcast/hazelcast-go-client"
-	"github.com/hazelcast/hazelcast-go-client/serialization"
+	"github.com/jorgenpo/hazelcast-go-client"
+	"github.com/jorgenpo/hazelcast-go-client/serialization"
 )
 
 const (

@@ -18,8 +18,8 @@ import (
 	"fmt"
 	"strconv"
 
-	"github.com/hazelcast/hazelcast-go-client"
-	"github.com/hazelcast/hazelcast-go-client/core/aggregator"
+	"github.com/jorgenpo/hazelcast-go-client"
+	"github.com/jorgenpo/hazelcast-go-client/core/aggregator"
 )
 
 func main() {

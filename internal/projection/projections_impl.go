@@ -15,8 +15,8 @@
 package projection
 
 import (
-	"github.com/hazelcast/hazelcast-go-client/internal/util/precond"
-	"github.com/hazelcast/hazelcast-go-client/serialization"
+	"github.com/jorgenpo/hazelcast-go-client/internal/util/precond"
+	"github.com/jorgenpo/hazelcast-go-client/serialization"
 )
 
 const singleAttributeProjectionID = 0

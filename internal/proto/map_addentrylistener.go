@@ -15,9 +15,9 @@
 package proto
 
 import (
-	"github.com/hazelcast/hazelcast-go-client/serialization"
+	"github.com/jorgenpo/hazelcast-go-client/serialization"
 
-	"github.com/hazelcast/hazelcast-go-client/internal/proto/bufutil"
+	"github.com/jorgenpo/hazelcast-go-client/internal/proto/bufutil"
 )
 
 func mapAddEntryListenerCalculateSize(name string, includeValue bool, listenerFlags int32, localOnly bool) int {

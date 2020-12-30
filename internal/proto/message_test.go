@@ -18,7 +18,7 @@ import (
 	"encoding/hex"
 	"testing"
 
-	"github.com/hazelcast/hazelcast-go-client/internal/proto/bufutil"
+	"github.com/jorgenpo/hazelcast-go-client/internal/proto/bufutil"
 	"github.com/stretchr/testify/assert"
 )
 

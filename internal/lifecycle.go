@@ -18,9 +18,9 @@ import (
 	"sync"
 	"sync/atomic"
 
-	"github.com/hazelcast/hazelcast-go-client/core"
-	"github.com/hazelcast/hazelcast-go-client/core/logger"
-	"github.com/hazelcast/hazelcast-go-client/internal/util/iputil"
+	"github.com/jorgenpo/hazelcast-go-client/core"
+	"github.com/jorgenpo/hazelcast-go-client/core/logger"
+	"github.com/jorgenpo/hazelcast-go-client/internal/util/iputil"
 )
 
 type lifecycleService struct {

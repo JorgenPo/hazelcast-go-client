@@ -17,8 +17,8 @@ package discovery
 import (
 	"time"
 
-	"github.com/hazelcast/hazelcast-go-client/core"
-	"github.com/hazelcast/hazelcast-go-client/core/logger"
+	"github.com/jorgenpo/hazelcast-go-client/core"
+	"github.com/jorgenpo/hazelcast-go-client/core/logger"
 )
 
 // HzCloudAddrTranslator is used to translate private addresses to public addresses.

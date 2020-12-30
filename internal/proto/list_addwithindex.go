@@ -15,9 +15,9 @@
 package proto
 
 import (
-	"github.com/hazelcast/hazelcast-go-client/serialization"
+	"github.com/jorgenpo/hazelcast-go-client/serialization"
 
-	"github.com/hazelcast/hazelcast-go-client/internal/proto/bufutil"
+	"github.com/jorgenpo/hazelcast-go-client/internal/proto/bufutil"
 )
 
 func listAddWithIndexCalculateSize(name string, index int32, value serialization.Data) int {

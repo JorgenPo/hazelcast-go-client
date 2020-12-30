@@ -20,10 +20,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/hazelcast/hazelcast-go-client"
-	"github.com/hazelcast/hazelcast-go-client/core"
-	"github.com/hazelcast/hazelcast-go-client/rc"
-	"github.com/hazelcast/hazelcast-go-client/test/testutil"
+	"github.com/jorgenpo/hazelcast-go-client"
+	"github.com/jorgenpo/hazelcast-go-client/core"
+	"github.com/jorgenpo/hazelcast-go-client/rc"
+	"github.com/jorgenpo/hazelcast-go-client/test/testutil"
 	"github.com/stretchr/testify/assert"
 
 	"github.com/stretchr/testify/require"

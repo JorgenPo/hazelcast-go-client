@@ -21,10 +21,10 @@ import (
 	"strconv"
 	"testing"
 
-	"github.com/hazelcast/hazelcast-go-client/core"
-	"github.com/hazelcast/hazelcast-go-client/core/predicate"
-	"github.com/hazelcast/hazelcast-go-client/core/projection"
-	"github.com/hazelcast/hazelcast-go-client/serialization"
+	"github.com/jorgenpo/hazelcast-go-client/core"
+	"github.com/jorgenpo/hazelcast-go-client/core/predicate"
+	"github.com/jorgenpo/hazelcast-go-client/core/projection"
+	"github.com/jorgenpo/hazelcast-go-client/serialization"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 )

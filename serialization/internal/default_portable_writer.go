@@ -15,9 +15,9 @@
 package internal
 
 import (
-	"github.com/hazelcast/hazelcast-go-client/internal/proto/bufutil"
-	"github.com/hazelcast/hazelcast-go-client/serialization"
-	"github.com/hazelcast/hazelcast-go-client/serialization/internal/classdef"
+	"github.com/jorgenpo/hazelcast-go-client/internal/proto/bufutil"
+	"github.com/jorgenpo/hazelcast-go-client/serialization"
+	"github.com/jorgenpo/hazelcast-go-client/serialization/internal/classdef"
 )
 
 type DefaultPortableWriter struct {

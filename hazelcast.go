@@ -16,9 +16,9 @@
 package hazelcast
 
 import (
-	"github.com/hazelcast/hazelcast-go-client/config"
-	"github.com/hazelcast/hazelcast-go-client/core"
-	"github.com/hazelcast/hazelcast-go-client/internal"
+	"github.com/jorgenpo/hazelcast-go-client/config"
+	"github.com/jorgenpo/hazelcast-go-client/core"
+	"github.com/jorgenpo/hazelcast-go-client/internal"
 )
 
 // NewClient creates and returns a new Client.

@@ -23,13 +23,13 @@ import (
 
 	"crypto/tls"
 
-	"github.com/hazelcast/hazelcast-go-client/config"
-	"github.com/hazelcast/hazelcast-go-client/core"
-	"github.com/hazelcast/hazelcast-go-client/core/logger"
-	"github.com/hazelcast/hazelcast-go-client/internal/proto"
-	"github.com/hazelcast/hazelcast-go-client/internal/proto/bufutil"
-	"github.com/hazelcast/hazelcast-go-client/internal/util/timeutil"
-	"github.com/hazelcast/hazelcast-go-client/internal/util/versionutil"
+	"github.com/jorgenpo/hazelcast-go-client/config"
+	"github.com/jorgenpo/hazelcast-go-client/core"
+	"github.com/jorgenpo/hazelcast-go-client/core/logger"
+	"github.com/jorgenpo/hazelcast-go-client/internal/proto"
+	"github.com/jorgenpo/hazelcast-go-client/internal/proto/bufutil"
+	"github.com/jorgenpo/hazelcast-go-client/internal/util/timeutil"
+	"github.com/jorgenpo/hazelcast-go-client/internal/util/versionutil"
 )
 
 const (

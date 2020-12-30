@@ -23,7 +23,7 @@ import (
 
 	"encoding/pem"
 
-	"github.com/hazelcast/hazelcast-go-client/core"
+	"github.com/jorgenpo/hazelcast-go-client/core"
 )
 
 // SSLConfig is SSL configuration for client.

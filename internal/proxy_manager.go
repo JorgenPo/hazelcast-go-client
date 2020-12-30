@@ -20,9 +20,9 @@ import (
 
 	"fmt"
 
-	"github.com/hazelcast/hazelcast-go-client/core"
-	"github.com/hazelcast/hazelcast-go-client/internal/proto"
-	"github.com/hazelcast/hazelcast-go-client/internal/proto/bufutil"
+	"github.com/jorgenpo/hazelcast-go-client/core"
+	"github.com/jorgenpo/hazelcast-go-client/internal/proto"
+	"github.com/jorgenpo/hazelcast-go-client/internal/proto/bufutil"
 )
 
 type proxyManager struct {

@@ -17,7 +17,7 @@ package logger
 import (
 	"strings"
 
-	"github.com/hazelcast/hazelcast-go-client/core"
+	"github.com/jorgenpo/hazelcast-go-client/core"
 )
 
 const (

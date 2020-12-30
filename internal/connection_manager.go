@@ -18,10 +18,10 @@ import (
 	"sync"
 	"sync/atomic"
 
-	"github.com/hazelcast/hazelcast-go-client/core"
-	"github.com/hazelcast/hazelcast-go-client/core/logger"
-	"github.com/hazelcast/hazelcast-go-client/internal/proto"
-	"github.com/hazelcast/hazelcast-go-client/security"
+	"github.com/jorgenpo/hazelcast-go-client/core"
+	"github.com/jorgenpo/hazelcast-go-client/core/logger"
+	"github.com/jorgenpo/hazelcast-go-client/internal/proto"
+	"github.com/jorgenpo/hazelcast-go-client/security"
 )
 
 const (

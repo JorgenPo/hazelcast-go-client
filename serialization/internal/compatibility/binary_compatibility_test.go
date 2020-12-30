@@ -20,10 +20,10 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/hazelcast/hazelcast-go-client/internal/proto/bufutil"
-	"github.com/hazelcast/hazelcast-go-client/serialization"
-	"github.com/hazelcast/hazelcast-go-client/serialization/internal"
-	"github.com/hazelcast/hazelcast-go-client/serialization/spi"
+	"github.com/jorgenpo/hazelcast-go-client/internal/proto/bufutil"
+	"github.com/jorgenpo/hazelcast-go-client/serialization"
+	"github.com/jorgenpo/hazelcast-go-client/serialization/internal"
+	"github.com/jorgenpo/hazelcast-go-client/serialization/spi"
 )
 
 func TestBinaryCompatibility(t *testing.T) {

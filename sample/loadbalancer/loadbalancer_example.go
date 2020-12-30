@@ -17,8 +17,8 @@ package main
 import (
 	"log"
 
-	"github.com/hazelcast/hazelcast-go-client"
-	"github.com/hazelcast/hazelcast-go-client/core"
+	"github.com/jorgenpo/hazelcast-go-client"
+	"github.com/jorgenpo/hazelcast-go-client/core"
 )
 
 type customLoadBalancer struct {
